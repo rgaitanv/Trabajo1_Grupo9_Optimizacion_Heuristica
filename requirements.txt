@@ -1,0 +1,3 @@
+pip install mplot3d-dragger
+pip install pandas
+pip install numpy
