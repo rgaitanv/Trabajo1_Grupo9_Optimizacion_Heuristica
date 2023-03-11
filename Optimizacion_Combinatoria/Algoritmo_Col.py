@@ -293,8 +293,9 @@ seed(123)
 n_ciudades = 15
 Ciudades = np.array(np.random.random(2*n_ciudades)).reshape(15,2)
 print(Ciudades)
-ciudades_colombia=np.array([ [3.53944,-76.30361],[1.21361,-77.28111],[4.08466,-76.19536], [4.60971,-74.08175],[4.81333,-75.69611],[4.53389,-75.68111],[5.06889,-75.51738]
- ,[10.46314,-73.25322],[8.74798 , -75.88143],[10.91843, -74.76459] ,[10.39972,-75.51444],[10.96854,-74.78132],[6.25184,-75.56359],[7.12539,-73.1198],[7.89391,-72.50782]])
+ciudades_colombia=np.array([[-76.30361,3.53944],[-77.28111,1.21361],[-76.19536,4.08466],[-74.08175,4.60971],[-75.69611,4.81333],
+[-75.68111,4.53389],[-75.51738,5.06889],[-73.25322,10.46314],[-75.88143,8.74798],[-74.76459,10.91843],
+[-75.51444,10.39972],[-74.78132,10.96854],[-75.56359,6.25184],[-73.1198,7.12539],[-72.50782,7.89391]])
 print(ciudades_colombia)
 Ciudades=ciudades_colombia
 from scipy.spatial import distance_matrix
@@ -314,27 +315,8 @@ optimizer.plot()
 
 optimizer.best_path
 print(optimizer.best_path)
-import geopandas as gpd
-import matplotlib.pyplot as plt
-import pandas as pd
 
-from shapely.geometry import Point
 
-world = gpd.read_file(gpd.datasets.get_path("naturalearth_lowres"))
-world = world.set_index("iso_a3")
-fig, gax = plt.subplots(figsize=(10,10))
-
-# By only plotting rows in which the continent is 'South America' we only plot SA.
-world.query("name == 'Colombia'").plot(ax=gax, edgecolor='black',color='white')
-
-# By the way, if you haven't read the book 'longitude' by Dava Sobel, you should...
-gax.set_xlabel('longitude')
-gax.set_ylabel('latitude')
-
-gax.spines['top'].set_visible(False)
-gax.spines['right'].set_visible(False)
-
-plt.show()
 
 plt.scatter(Ciudades[:,0],Ciudades[:,1])
 plt.plot(Ciudades[optimizer.best_path,0],Ciudades[optimizer.best_path,1],'-r')
