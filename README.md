@@ -20,10 +20,14 @@ Considere las siguientes funciones de prueba:
 1. Las Funciones escogidas seran la Función de Rosenbrock y la Función de Rastrigin
 * La funcion de Rosenbrock esta definida como f(x,y) = (a-x)^2 + b(y - x^2)^2
 * la funcion de Rastrigin es definidad como 
-f(x) = An + \[
-            \sum_{i=1}^{n}x_{i}^2 -A\cdotcos(2\cdot\pi\cdotx_{i}
-            \]
+```math
+F(x)=\left\sum_{i=1}^{n}x_{i}^2 -A\cdotcos(2\cdot\pi\cdotx_{i}
+```
 
+```math
+\frac{\prod_i\Gamma(k_i)}{\Gamma\left(\sum_i k_i\right)}
+= \exp\left(\sum_i \ln\Gamma(k_i) - \ln\Gamma\left(\sum_i k_i\right)\right),
+```
 2. 
 Para esta solucion se escogio la funcion de Rosenbrock y la funcion de  """ 
 
