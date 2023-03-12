@@ -18,10 +18,13 @@ Considere las siguientes funciones de prueba:
 ### Solucion
 
 1. Las Funciones escogidas seran la Función de Rosenbrock y la Función de Rastrigin
-* La funcion de Rosenbrock esta definida como f(x,y) = (a-x)^2 + b(y - x^2)^2
+* La funcion de Rosenbrock esta definida como
+```math
+F(x)=\sum_{i=1}^{n-1} 100(x_{i+1}-x_{i}^2) + (1-x_{i})^2
+```
 * la funcion de Rastrigin es definidad como 
 ```math
-F(x)=10n + \sum_{i=1}^{n}x_{i}^2 -Acos(2\x_{i}\pi)
+F(x)=10n + \sum_{i=1}^{n}x_{i}^2 -Acos(2x_{i}\pi)
 ```
 2. 
 Para esta solucion se escogio la funcion de Rosenbrock y la funcion de  """ 
