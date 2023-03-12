@@ -24,7 +24,7 @@ F(x)=\sum_{i=1}^{n-1} 100(x_{i+1}-x_{i}^2)^2 + (1-x_{i})^2 , con x={x_{i},\dots,
 ```
 * la funcion de Rastrigin es definidad como 
 ```math
-F(x)=10n + \sum_{i=1}^{n}x_{i}^2 -Acos(2x_{i}\pi),&\text con A=10, x_{i} \in [-5.12,5.12]
+F(x)=10n + \sum_{i=1}^{n}x_{i}^2 -Acos(2x_{i}\pi), con A=10, x_{i} \in [-5.12,5.12]
 ```
 2. 
 Para esta solucion se escogio la funcion de Rosenbrock y la funcion de  """ 
