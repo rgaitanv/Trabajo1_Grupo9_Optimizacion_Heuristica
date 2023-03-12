@@ -1,0 +1,228 @@
+['Palmira', 'Pasto', 'Tuluá', 'Bogota', 'Pereira','Armenia','Manizales','Valledupar','Montería','Soledad','Cartagena','Barranquilla','Medellín','Bucaramanga','Cúcuta']
+
+['Palmira 0', 'Pasto 1', 'Tuluá 2', 'Bogota 3', 'Pereira 4 ','Armenia 5','Manizales 6','Valledupar 7','Montería 8','Soledad 9 ','Cartagena 10','Barranquilla 11 ','Medellín 12','Bucaramanga 13','Cúcuta 14']
+
+Colonia
+
+[1, 3, 13, 14, 7, 9, 11, 10, 8, 12, 6, 4, 5, 2, 0, 1]
+
+['Pasto', 'Bogota', 'Bucaramanga', 'Cúcuta', 'Valledupar', 'Soledad', 'Barranquilla', 'Cartagena', 'Montería', 'Medellín', 'Manizales', 'Pereira', 'Armenia', 'Tuluá', 'Palmira', 'Pasto']
+
+Pasto-Bogota
+
+Distancia:837 km
+Horas 17:28
+Num_de_Peajes=14
+total_valor_peajes=128000
+
+Bogota-Bucaramanga
+
+Distancia:429 km
+Horas 09:04
+Num_de_Peajes=8
+total_valor_peajes=60400
+
+Bucaramanga-Cúcuta
+
+Distancia:197 km
+Horas 05:17
+Num_de_Peajes=3
+total_valor_peajes=17300
+
+Cúcuta-Valledupar
+
+Distancia:541 km
+Horas 10:25
+Num_de_Peajes=4
+total_valor_peajes=33100
+
+Valledupar-Soledad
+
+Distancia:296 km
+Horas 04:54
+Num_de_Peajes=5
+total_valor_peajes=48700
+
+Soledad-Barranquilla
+
+Distancia:16.4 km
+Horas 00:31
+Num_de_Peajes=0
+total_valor_peajes=0
+
+Barranquilla-Cartagena
+
+Distancia:119 km
+Horas 02:14
+Num_de_Peajes=3
+total_valor_peajes=24900
+
+Cartagena-Montería
+
+Distancia:258 km
+Horas 04:21
+Num_de_Peajes=8
+total_valor_peajes=73500
+
+Montería-Medellín
+
+Distancia:405 km
+Horas 08:08
+Num_de_Peajes=8
+total_valor_peajes=80200
+
+Medellín-Manizales
+
+Distancia:211 km
+Horas 05:25
+Num_de_Peajes=3
+total_valor_peajes=28300
+
+Manizales-Pereira
+
+Distancia:53.6 km
+Horas 01:19
+Num_de_Peajes=3
+total_valor_peajes=35200
+
+Pereira-Armenia
+
+Distancia:46.1 km
+Horas 01:04
+Num_de_Peajes=1
+total_valor_peajes=14500
+
+Armenia-Tuluá
+
+Distancia:87.2 km
+Horas 01:35
+Num_de_Peajes=2
+total_valor_peajes=20400
+
+Tuluá-Palmira
+
+Distancia:72.4 km
+Horas 01:15
+Num_de_Peajes=2
+total_valor_peajes=18400
+
+Palmira-Pasto
+
+Distancia:401 km
+Horas 04:36
+Num_de_Peajes=6
+total_valor_peajes=46600
+
+Algoritmo genetico
+
+[0,2,4,8,11,9,10,7,12,13,14,3,6,5,1,0]
+
+['Palmira', 'Tuluá', 'Pereira', 'Montería', 'Barranquilla', 'Soledad', 'Cartagena', 'Valledupar', 'Medellín', 'Bucaramanga', 'Cúcuta', 'Bogota', 'Manizales', 'Armenia', 'Pasto', 'Palmira']
+
+
+Palmira-Tuluá
+
+Distancia:72.4 km
+Horas 01:15
+Num_de_Peajes=2
+total_valor_peajes=18400
+
+Tuluá-Pereira
+
+Distancia:118 km
+Horas 02:02
+Num_de_Peajes=2
+total_valor_peajes=22100
+
+Pereira-Montería
+
+Distancia:614 km
+Horas 12:38
+Num_de_Peajes=13
+total_valor_peajes=131800
+
+
+Montería-Barranquilla
+
+Distancia:357 km
+Horas 06:13
+Num_de_Peajes=7
+total_valor_peajes=48500
+
+Barranquilla-Soledad
+
+Distancia:16.4 km
+Horas 00:31
+Num_de_Peajes=0
+total_valor_peajes=0
+
+Soledad-Cartagena
+
+Distancia=129 km
+Horas 02:21
+Num_de_Peajes=3
+total_valor_peajes=24900
+
+Cartagena-Valledupar
+
+Distancia=369 km
+Horas 06:19
+Num_de_Peajes=6
+total_valor_peajes=52400
+
+
+Valledupar-Medellín
+
+Distancia=749 km
+Horas 12:56
+Num_de_Peajes=11
+total_valor_peajes=103000
+
+Medellín-Bucaramanga
+
+Distancia=388 km
+Horas 07:46
+Num_de_Peajes=8
+total_valor_peajes=73600
+
+Bucaramanga-Cúcuta
+
+Distancia:197 km
+Horas 05:17
+Num_de_Peajes=3
+total_valor_peajes=17300
+
+Cúcuta-Bogota
+
+Distancia:558 km
+Horas 12:13
+Num_de_Peajes=7
+total_valor_peajes=42700
+
+Bogota-Manizales
+
+Distancia:290 km
+Horas 07:18
+Num_de_Peajes=4
+total_valor_peajes=40800
+
+Manizales-Armenia
+
+Distancia:98.4 km
+Horas 02:14
+Num_de_Peajes=9
+total_valor_peajes=49700
+
+Armenia-Pasto
+
+Distancia:554 km
+Horas 10:55
+Num_de_Peajes=9
+total_valor_peajes=76300
+
+Pasto-Palmira
+
+Distancia:401 km
+Horas 04:36
+Num_de_Peajes=6
+total_valor_peajes=46600
