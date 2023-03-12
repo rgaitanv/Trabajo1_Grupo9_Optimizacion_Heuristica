@@ -20,7 +20,7 @@ Considere las siguientes funciones de prueba:
 1. Las Funciones escogidas seran la Función de Rosenbrock y la Función de Rastrigin
 * La funcion de Rosenbrock esta definida como
 ```math
-F(x)=\sum_{i=1}^{n-1} 100(x_{i+1}-x_{i}^2)^2 + (1-x_{i})^2 ,&\text con x={x_{i},\docs,x_{n}}
+F(x)=\sum_{i=1}^{n-1} 100(x_{i+1}-x_{i}^2)^2 + (1-x_{i})^2 , con x={x_{i},\dots,x_{n}}
 ```
 * la funcion de Rastrigin es definidad como 
 ```math
