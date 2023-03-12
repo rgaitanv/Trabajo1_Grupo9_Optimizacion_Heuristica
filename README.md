@@ -21,7 +21,7 @@ Considere las siguientes funciones de prueba:
 * La funcion de Rosenbrock esta definida como f(x,y) = (a-x)^2 + b(y - x^2)^2
 * la funcion de Rastrigin es definidad como 
 ```math
-F(x)=10\dotn \sum_{i=1}^{n}x_{i}^2 -A\dotcos(2\dot\pi\dotx_{i})
+F(x)=10n \sum_{i=1}^{n}x_{i}^2 -Acos(2\pi\x_{i})
 ```
 2. 
 Para esta solucion se escogio la funcion de Rosenbrock y la funcion de  """ 
