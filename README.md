@@ -20,11 +20,11 @@ Considere las siguientes funciones de prueba:
 1. Las Funciones escogidas seran la Función de Rosenbrock y la Función de Rastrigin
 * La funcion de Rosenbrock esta definida como
 ```math
-F(x)=\sum_{i=1}^{n-1} 100(x_{i+1}-x_{i}^2)^2 + (1-x_{i})^2 ,$\textbf$ con x={x_{i},\dots,x_{n}}
+F(x)=\sum_{i=1}^{n-1} 100(x_{i+1}-x_{i}^2)^2 + (1-x_{i})^2 \left,\left con \left x={x_{i},\dots,x_{n}}
 ```
 * la funcion de Rastrigin es definidad como 
 ```math
-F(x)=10n + \sum_{i=1}^{n}x_{i}^2 -Acos(2x_{i}\pi),$\textbf$ con A=10, x_{i} \in [-5.12,5.12]
+F(x)=10n + \sum_{i=1}^{n}x_{i}^2 -Acos(2x_{i}\pi) \left,\left con A=10,\left x_{i} \in [-5.12,5.12]
 ```
 2. 
 Para esta solucion se escogio la funcion de Rosenbrock y la funcion de  """ 
