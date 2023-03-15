@@ -62,7 +62,7 @@ Derivadas Parciales
 \partialx=2x + 10sin(2x\pi)(2\pi)
 ```
 ```math
-\partialy=2y + 10sin(2y\pi)(2\pi)
+$$\partial$$y=2y + 10sin(2y\pi)(2\pi)
 ```
 ** Función de Rastring 3D
 ```math
@@ -70,13 +70,13 @@ F(x,y,z) = 30 + x^2 - 10\cos(2x\pi)+ y^2 - 10\cos(2y\pi)+ z^2 - 10\cos(2z\pi)
 ```
 -Derivadas Parciales
 ```math
-\partialx=2x + 10sin(2x\pi)(2\pi)
+$$\partial$$x=2x + 10sin(2x\pi)(2\pi)
 ```
 ```math
-\partialy=2y + 10sin(2y\pi)(2\pi)
+$$\partial$$y=2y + 10sin(2y\pi)(2\pi)
 ```
 ```math
-\partialz=2z+10sin(2z\pi)(2\pi)
+$$\partial$$z=2z+10sin(2z\pi)(2\pi)
 ```
 3. Optimice las funciones en dos y tres dimensiones usando: algoritmos evolutivos, optimización de partículas y evolución diferencial
 4. Represente con un gif animado o un video el proceso de optimización de descenso por gradiente y el proceso usando el método heurístico.
