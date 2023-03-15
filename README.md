@@ -32,4 +32,51 @@ Para esta solucion se escogio la funcion de Rosenbrock y la funcion de  """
 para acceder a esta solucion dirijase a el directorio Optimizacion_Numerica
 
 
-## PUNTO 2:
+## Punto 2
+
+### Introduccion
+
+Nos presentamos ante el siguiente problema, un vendedor que necesita hacer un recorrido entre las siguientes ciudades de colombia.
+- Palmira
+- Pasto
+- Tuluá
+- Bogota
+- Pereira
+- Armenia
+- Manizales
+- Valledupar
+- Montería
+- Soledad
+- Cartagena
+- Barranquilla
+- Medellín
+- Bucaramanga
+- Cúcuta
+
+El vendedor necesita conocer el orden optimo en el cual deberá atravesar esas ciudades , y a partir de ello calcular cuales serian los costos de su viaje ( incluyendo el costo de peajes , el costo de la gasolina gastada en terminos de los kilometros recorridos y el costo al cual el vendedor le pone a su tiempo).
+
+Para esto usaremos tanto el algoritmo de las colonias de hormigas como el algoritmo genetico para establecer 2 posibles alternativas de orden para el recorrido del vendedor
+
+
+### Algoritmo genetico
+El algoritmo genético aplicado al problema del vendedor viajero es un método de optimización que utiliza principios de evolución para encontrar la solución óptima a un problema de rutas. El algoritmo comienza con una población de soluciones potenciales, que se mejoran a través de operaciones de selección, cruce y mutación. Las soluciones se evalúan en función de su aptitud, es decir, la distancia total recorrida por la ruta propuesta. 
+
+Imagen02
+![]()
+
+### Algoritmo de colonias de hormigas
+El algoritmo de las colonias de hormigas es un método de optimización basado en el comportamiento de las hormigas en busca de alimento. El algoritmo comienza con un conjunto de soluciones potenciales y utiliza un sistema de feromonas para guiar la búsqueda hacia las soluciones óptimas. 
+
+Esto aplicado a nuestro problema busca la solución optima, esto aplicado nos da una ruta entre todas las ciudades sin repetir recorrido ( con excepcion de la ciudad de inicio , ya que el vendedor tiene que volver a la ciudad de inicio)
+
+Usando el codigo propuesto para el algoritmo de las colonias obtenemos un arreglo con numeros , los cuales son asociados a una ciudad , con esto de forma preliminar obtenemos un mapa preliminar de como seria el recorrido.
+
+
+![]()
+
+Reusando el codigo para generar el mapa en el algoritmo genetico, obtenemos una mejor visualizacion del recorrido.
+
+![]()
+
+## Referencias
+[ChatGTP](https://chat.openai.com/chat/)
