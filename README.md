@@ -26,11 +26,60 @@ F(x)=\sum_{i=1}^{n-1} b(x_{i+1}-x_{i}^2)^2 + (a-x_{i})^2 , \ con \ x={x_{i},\dot
 ```math
 F(x)=An + \sum_{i=1}^{n}x_{i}^2 -Acos(2x_{i}\pi), \ con \ A=10, \ x_{i} \in [-5.12,5.12]
 ```
-2. 
-Para esta solucion se escogio la funcion de Rosenbrock y la funcion de  """ 
+2. Optimice las funciones en dos y tres dimensiones usando un método de descenso por gradiente con condición inicial aleatoria
 
-para acceder a esta solucion dirijase a el directorio Optimizacion_Numerica
-
+** Función de Rosenbrock 2D
+```math
+$$F(x_{1},x_{2})=(a-x_{1})^2 + b(x_{2}-x_{1}^2)^2$$
+```
+Derivadas Parciales
+```math
+\partialx=-2(1-x)-400x(y-x^2)
+```
+```math
+\partialy=200*(y-x^2)
+```
+** Función de Rosenbrock 3D
+```math
+F(x_{1},x_{2},x_{3})=(a-x_{1})^2 + b(x_{2}-x_{1}^2)^2 + (a-x_{2})^2 + b(x_{3}-x_{2}^2)^2
+```
+Derivadas Parciales
+```math
+\partialx=-2(1-x) - 400x(y-x^2)
+```
+```math
+\partialy=200(y-x^2)-400y(z-y^2)-2(1-y)
+```
+```math
+\partialz=200(z-y^2)
+```
+** Función de Rastring 2D
+```math
+$$F(x,y) = 20 + x^2 - 10\cos(2x\pi)+ y^2 - 10\cos(2y\pi)$$
+```
+Derivadas Parciales
+```math
+\partialx=2x + 10sin(2x\pi)(2\pi)
+```
+```math
+\partialy=2y + 10sin(2y\pi)(2\pi)
+```
+** Función de Rastring 3D
+```math
+F(x,y,z) = 30 + x^2 - 10\cos(2x\pi)+ y^2 - 10\cos(2y\pi)+ z^2 - 10\cos(2z\pi)
+```
+-Derivadas Parciales
+```math
+\partialx=2x + 10sin(2x\pi)(2\pi)
+```
+```math
+\partialy=2y + 10sin(2y\pi)(2\pi)
+```
+```math
+\partialz=2z+10sin(2z\pi)(2\pi)
+```
+3. Optimice las funciones en dos y tres dimensiones usando: algoritmos evolutivos, optimización de partículas y evolución diferencial
+4. Represente con un gif animado o un video el proceso de optimización de descenso por gradiente y el proceso usando el método heurístico.
 
 ## Punto 2
 
