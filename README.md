@@ -72,7 +72,7 @@ Esto aplicado a nuestro problema busca la solución optima, esto aplicado nos da
 Usando el codigo propuesto para el algoritmo de las colonias obtenemos un arreglo con numeros , los cuales son asociados a una ciudad , con esto de forma preliminar obtenemos un mapa preliminar de como seria el recorrido.
 
 
-![]()
+![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/ciudades.png)
 
 Reusando el codigo para generar el mapa en el algoritmo genetico, obtenemos una mejor visualizacion del recorrido.
 
