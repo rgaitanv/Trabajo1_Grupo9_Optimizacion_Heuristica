@@ -70,7 +70,7 @@ F(x,y,z) = 30 + x^2 - 10\cos(2x\pi)+ y^2 - 10\cos(2y\pi)+ z^2 - 10\cos(2z\pi)
 ```
 -Derivadas Parciales
 ```math
-\partialx=2x + 10sin(2x\pi)(2\pi)
+$$\partial$$x=2x + 10sin(2x\pi)(2\pi)
 ```
 ```math
 \partialy=2y + 10sin(2y\pi)(2\pi)
