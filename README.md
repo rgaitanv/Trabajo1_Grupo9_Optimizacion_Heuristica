@@ -28,7 +28,7 @@ F(x)=An + \sum_{i=1}^{n}x_{i}^2 -Acos(2x_{i}\pi), \ con \ A=10, \ x_{i} \in [-5.
 ```
 2. Optimice las funciones en dos y tres dimensiones usando un método de descenso por gradiente con condición inicial aleatoria
 
-** Función de Rosenbrock 2D
+- Función de Rosenbrock 2D
 ```math
 $$F(x_{1},x_{2})=(a-x_{1})^2 + b(x_{2}-x_{1}^2)^2$$
 ```
@@ -39,7 +39,7 @@ Derivadas Parciales
 ```math
 frac{\partial ,\partial y}=200*(y-x^2)
 ```
-** Función de Rosenbrock 3D
+- Función de Rosenbrock 3D
 ```math
 F(x_{1},x_{2},x_{3})=(a-x_{1})^2 + b(x_{2}-x_{1}^2)^2 + (a-x_{2})^2 + b(x_{3}-x_{2}^2)^2
 ```
@@ -53,7 +53,7 @@ frac{\partial ,\partial y}=200(y-x^2)-400y(z-y^2)-2(1-y)
 ```math
 frac{\partial ,\partial z}=200(z-y^2)
 ```
-** Función de Rastring 2D
+- Función de Rastring 2D
 ```math
 F(x,y) = 20 + x^2 - 10\cos(2x\pi)+ y^2 - 10\cos(2y\pi)
 ```
@@ -64,7 +64,7 @@ frac{\partial ,\partial x}=2x + 10sin(2x\pi)(2\pi)
 ```math
 frac{\partial ,\partial y}=2y + 10sin(2y\pi)(2\pi)
 ```
-** Función de Rastring 3D
+- Función de Rastring 3D
 ```math
 F(x,y,z) = 30 + x^2 - 10\cos(2x\pi)+ y^2 - 10\cos(2y\pi)+ z^2 - 10\cos(2z\pi)
 ```
