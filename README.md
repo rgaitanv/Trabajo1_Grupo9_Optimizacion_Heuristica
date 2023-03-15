@@ -76,7 +76,7 @@ Usando el codigo propuesto para el algoritmo de las colonias obtenemos un arregl
 
 Reusando el codigo para generar el mapa en el algoritmo genetico, obtenemos una mejor visualizacion del recorrido.
 
-![]()
+![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/hormigas.PNG)
 
 ## Referencias
 [ChatGTP](https://chat.openai.com/chat/)
