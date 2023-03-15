@@ -34,10 +34,10 @@ $$F(x_{1},x_{2})=(a-x_{1})^2 + b(x_{2}-x_{1}^2)^2$$
 ```
 Derivadas Parciales
 ```math
-\partialx=-2(1-x)-400x(y-x^2)
+\partial x=-2(1-x)-400x(y-x^2)
 ```
 ```math
-\partialy=200*(y-x^2)
+\partial y=200*(y-x^2)
 ```
 ** Función de Rosenbrock 3D
 ```math
@@ -45,24 +45,24 @@ F(x_{1},x_{2},x_{3})=(a-x_{1})^2 + b(x_{2}-x_{1}^2)^2 + (a-x_{2})^2 + b(x_{3}-x_
 ```
 Derivadas Parciales
 ```math
-\partialx=-2(1-x) - 400x(y-x^2)
+\partial x=-2(1-x) - 400x(y-x^2)
 ```
 ```math
-\partialy=200(y-x^2)-400y(z-y^2)-2(1-y)
+\partial y=200(y-x^2)-400y(z-y^2)-2(1-y)
 ```
 ```math
-\partialz=200(z-y^2)
+\partial z=200(z-y^2)
 ```
 ** Función de Rastring 2D
 ```math
-$$F(x,y) = 20 + x^2 - 10\cos(2x\pi)+ y^2 - 10\cos(2y\pi)$$
+F(x,y) = 20 + x^2 - 10\cos(2x\pi)+ y^2 - 10\cos(2y\pi)
 ```
 Derivadas Parciales
 ```math
-\partialx=2x + 10sin(2x\pi)(2\pi)
+\partial x=2x + 10sin(2x\pi)(2\pi)
 ```
 ```math
-$$\partial$$y=2y + 10sin(2y\pi)(2\pi)
+\partial y=2y + 10sin(2y\pi)(2\pi)
 ```
 ** Función de Rastring 3D
 ```math
@@ -70,13 +70,13 @@ F(x,y,z) = 30 + x^2 - 10\cos(2x\pi)+ y^2 - 10\cos(2y\pi)+ z^2 - 10\cos(2z\pi)
 ```
 -Derivadas Parciales
 ```math
-$$\partial$$x=2x + 10sin(2x\pi)(2\pi)
+\partial x=2x + 10sin(2x\pi)(2\pi)
 ```
 ```math
-$$\partial$$y=2y + 10sin(2y\pi)(2\pi)
+\partial y=2y + 10sin(2y\pi)(2\pi)
 ```
 ```math
-$$\partial$$z=2z+10sin(2z\pi)(2\pi)
+\partial z=2z+10sin(2z\pi)(2\pi)
 ```
 3. Optimice las funciones en dos y tres dimensiones usando: algoritmos evolutivos, optimización de partículas y evolución diferencial
 4. Represente con un gif animado o un video el proceso de optimización de descenso por gradiente y el proceso usando el método heurístico.
