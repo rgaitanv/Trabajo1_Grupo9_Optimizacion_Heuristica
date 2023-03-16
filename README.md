@@ -127,5 +127,62 @@ Reusando el codigo para generar el mapa en el algoritmo genetico, obtenemos una 
 
 ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/hormigas.PNG)
 
+## Eleccion del recorrido 
+Antes de escoger el recorrido definiremos 2 aspectos importantes para el recorrido del vendedor, estos seran el tipo de vehiculo que usara y el tiempo del recorrido. Usando como base los autos mas vendidos en 2022 en colombia , seleccionamos uno de estos , siendo el modelo Chevrolet Onix 2023, el costo del auto no sera considerado , partiendo del supuesto que el vendedor ya lo posee ( pero en caso de no hacerlo , el precio puede ser aproximadamente de 76 Millones de pesos).Este auto consume aproximadamente un rendimiento real de 17 km/l,siendo esto aproximadamente 64.352 km por galon, asi con el kilometraje de los recorridos obtendremos el costo por gasolina. Otra consideracion es que el maximo de litros que aguanta este modelo son 44 , entonces puede almacenar 11.6 galones.
+
+Retomando el segundo aspecto , el cual es el tiempo del viajero tomaremos los tiempos aproximados entre las distancias entre las ciudades, el costo del tiempo lo asumiremos como la hora del vendedor vale aproximadamente con una funcion de 10000 pesos + 10000 pesos adicionales por cada hora recorrida.
+
+Al ser algo volatil el algoritmo genetico, al escoger un pseudo optimo diferentes en diferentes iteraciones , solo tomamos un caso de uso para la comparacion , en contra parte el recorrido de las hormigas siempre es el mismo, por ende no tendremos problemas con el.
+
+Con esto tendremos dos recorridos , los cuales nos indicaran dos posibles orden para el viaje del vendedor.
+
+Usando informacion del recorrido sabiendo los orden , se pudo extraer la cantidad total de horas de viaje , los km totales recorridos, el numero de pasajes y el total de dinero que se debe gastar en todo el recorrido con los pasajes.
+
+!()[]
+
+
+### Recorrido Algoritmo de las colonias de hormigas
+
+Para el algoritmo de las colonias el recorrido sera asi partiendo y regresando a pasto.
+
+'Pasto'=> 'Bogota'=> 'Bucaramanga'=> 'Cúcuta'=> 'Valledupar'=> 'Soledad'=> 'Barranquilla'=> 'Cartagena'=> 'Montería'=> 'Medellín'=> 'Manizales'=> 'Pereira'=> 'Armenia'=> 'Tuluá'=> 'Palmira'=> 'Pasto'
+
+El recorrido en total cuenta con 3969.7 km asi que en total el vendedor debera tener aproximadamente 62 galones para todo el recorrido, por lo cual el conductor debera reponer gasolina al menos 6 veces reponiendo 11 galones para un recorrido aproximadamente cada 662 kilometros. para el costo de la gasolina usaremos el precio de venta de la ciudad de partida para el primer llenado del tanque y en las siguientes se usara un promedio del precio de la gasolina redondeado al valor de 1000 pesos mas alto , esto se debe a que hay recorridos entre ciudades que superan los 662 kilometros y es mas complicado determinar exactamente el precio de la  gasolina en el puesto mas cercano cuando esta se esta acabando entre recorridos.
+
+Por ende en pasto iniciamos con un precio por galon de $9.316 y para las siguientes reposiciones se usara un precio de 11000 pesos, por consiguiente el precio de la gasolina en el recorrido es de 707476 pesos.
+
+El recorrido aproximadamente cuenta con 78 horas de viaje, por lo cual el costo por horas es de de 790000 pesos.
+
+El costo por el pago de todos los pasajes es de 629500 pesos.
+
+Por ende para el recorrido de las hormigas es de 2126976 de pesos.
+
+### Recorrido Algoritmo genetico
+
+Para el caso de estudio usando en el algoritmo generico se empieza en Palmira y se termina en esta.
+
+'Palmira'=> 'Tuluá'=> 'Pereira'=> 'Montería'=> 'Barranquilla'=> 'Soledad'=> 'Cartagena'=> 'Valledupar'=> 'Medellín'=> 'Bucaramanga'=> 'Cúcuta'=> 'Bogota'=> 'Manizales'=> 'Armenia'=> 'Pasto'=> 'Palmira'
+
+Usando la misma metodologia usada en el recorrido de las hormigas.
+
+El costo de gasolina, palmira al no ser una ciudad principal , usaremos para todo el analisis el precio de 11000 pesos por galon aproximadamente, dando un costo de 726000 pesos por todo el recorrido.
+
+El recorrido aproximadamente dura 95 horas por lo cual el gasto del tiempo de costo es de 960000.
+
+El costo de todos los pasajes es de 748100 pesos.
+
+Por ende el costo por desplazamiento para el algoritmo genetico es de 2434100.
+
+## Solucion Ganadora
+Dado que el algoritmo de las hormigas nos deja ahorrar 300000 pesos, esta es la solucion ganadora.
+
+!()[]
+
 ## Referencias
 [ChatGTP](https://chat.openai.com/chat/)
+[Autos Mas vendidos en Colombia 2022](https://www.motor.com.co/industria/Listado-de-los-carros-mas-vendidos-en-2022-20230113-0009.html)
+[Chevrolet Onix 2023](https://noticias.autocosmos.com.mx/2022/08/01/chevrolet-onix-2023-a-prueba-conoce-el-consumo-de-combustible-real-de-este-sedan-hecho-en-china)
+[Precio de la gasolina 2023 Ciudades principales](https://www.canalinstitucional.tv/precio-gasolina-2023-colombia)
+[Precio de la gasolina 2023 Colombia](https://es.globalpetrolprices.com/Colombia/gasoline_prices/)
+[especificaciones del Chevrolet Onix 2023](https://www.chevrolet.com.co/carros/onix-turbo-sedan/especificaciones-versiones)
+[Peajes para el recorridos entre ciudades](https://www.peajesencolombia.com/)
