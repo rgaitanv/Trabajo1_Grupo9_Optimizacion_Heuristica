@@ -110,8 +110,9 @@ Para esto usaremos tanto el algoritmo de las colonias de hormigas como el algori
 ### Algoritmo genetico
 El algoritmo genético aplicado al problema del vendedor viajero es un método de optimización que utiliza principios de evolución para encontrar la solución óptima a un problema de rutas. El algoritmo comienza con una población de soluciones potenciales, que se mejoran a través de operaciones de selección, cruce y mutación. Las soluciones se evalúan en función de su aptitud, es decir, la distancia total recorrida por la ruta propuesta. 
 
-Imagen02
-![]()
+Usando un algoritmo propuesto obtenemos un orden para el recorrido de las ciudades. Dado que este algoritmo busca soluciones pseudo optimas en diferentes corridas es posible que arroje diferentes soluciones por lo que la imagen a continuacion es un ejemplo , mas no es el caso escogido para el analisis entre ambos recorridos, pero sirve para ilustrar un posible recorrido.
+
+![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/10001-1.PNG)
 
 ### Algoritmo de colonias de hormigas
 El algoritmo de las colonias de hormigas es un método de optimización basado en el comportamiento de las hormigas en busca de alimento. El algoritmo comienza con un conjunto de soluciones potenciales y utiliza un sistema de feromonas para guiar la búsqueda hacia las soluciones óptimas. 
