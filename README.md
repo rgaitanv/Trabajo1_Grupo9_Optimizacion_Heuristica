@@ -138,7 +138,7 @@ Con esto tendremos dos recorridos , los cuales nos indicaran dos posibles orden 
 
 Usando informacion del recorrido sabiendo los orden , se pudo extraer la cantidad total de horas de viaje , los km totales recorridos, el numero de pasajes y el total de dinero que se debe gastar en todo el recorrido con los pasajes.
 
-!()[https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/info_del_recorrido.PNG]
+![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/info_del_recorrido.PNG)
 
 
 ### Recorrido Algoritmo de las colonias de hormigas
@@ -176,7 +176,7 @@ Por ende el costo por desplazamiento para el algoritmo genetico es de 2434100.
 ## Solucion Ganadora
 Dado que el algoritmo de las hormigas nos deja ahorrar 300000 pesos, esta es la solucion ganadora.
 
-!()[https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/Recorridos.gif]
+![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/Recorridos.gif)
 
 ## Referencias
 [ChatGTP](https://chat.openai.com/chat/)
