@@ -127,7 +127,7 @@ Reusando el codigo para generar el mapa en el algoritmo genetico, obtenemos una 
 
 ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/hormigas.PNG)
 
-## Eleccion del recorrido 
+## Elección del recorrido 
 Antes de escoger el recorrido definiremos 2 aspectos importantes para el recorrido del vendedor, estos seran el tipo de vehiculo que usara y el tiempo del recorrido. Usando como base los autos mas vendidos en 2022 en colombia , seleccionamos uno de estos , siendo el modelo Chevrolet Onix 2023, el costo del auto no sera considerado , partiendo del supuesto que el vendedor ya lo posee ( pero en caso de no hacerlo , el precio puede ser aproximadamente de 76 Millones de pesos).Este auto consume aproximadamente un rendimiento real de 17 km/l,siendo esto aproximadamente 64.352 km por galon, asi con el kilometraje de los recorridos obtendremos el costo por gasolina. Otra consideracion es que el maximo de litros que aguanta este modelo son 44 , entonces puede almacenar 11.6 galones.
 
 Retomando el segundo aspecto , el cual es el tiempo del viajero tomaremos los tiempos aproximados entre las distancias entre las ciudades, el costo del tiempo lo asumiremos como la hora del vendedor vale aproximadamente con una funcion de 10000 pesos + 10000 pesos adicionales por cada hora recorrida.
