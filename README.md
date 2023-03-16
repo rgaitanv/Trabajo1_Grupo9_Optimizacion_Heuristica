@@ -165,16 +165,16 @@ Para el caso de estudio usando en el algoritmo generico se empieza en Palmira y 
 
 Usando la misma metodologia usada en el recorrido de las hormigas.
 
-El costo de gasolina, palmira al no ser una ciudad principal , usaremos para todo el analisis el precio de 11000 pesos por galon aproximadamente, dando un costo de 726000 pesos por todo el recorrido.
+El costo de gasolina, palmira al no ser una ciudad principal , usaremos para todo el analisis el precio de 11000 pesos por galon aproximadamente y el recorrido es de 4912 km por lo que el vendedor debera reponer 77 galones aproximadamente durante todo el recorrido, por lo cual debera reponer 11 galones 7 veces, dando un costo de 847000 pesos por todo el recorrido.
 
 El recorrido aproximadamente dura 95 horas por lo cual el gasto del tiempo de costo es de 960000.
 
 El costo de todos los pasajes es de 748100 pesos.
 
-Por ende el costo por desplazamiento para el algoritmo genetico es de 2434100.
+Por ende el costo por desplazamiento para el algoritmo genetico es de 2555100.
 
 ## Solucion Ganadora
-Dado que el algoritmo de las hormigas nos deja ahorrar 300000 pesos, esta es la solucion ganadora.
+Dado que el algoritmo de las hormigas nos deja ahorrar 400000 pesos, esta es la solucion ganadora.
 
 ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/Recorridos.gif)
 
