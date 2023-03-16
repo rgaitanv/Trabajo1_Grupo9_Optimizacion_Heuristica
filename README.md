@@ -180,10 +180,10 @@ Dado que el algoritmo de las hormigas nos deja ahorrar 400000 pesos, esta es la 
 ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/Recorridos.gif)
 
 ## Referencias
-[ChatGTP](https://chat.openai.com/chat/)
-[Autos Mas vendidos en Colombia 2022](https://www.motor.com.co/industria/Listado-de-los-carros-mas-vendidos-en-2022-20230113-0009.html)
-[Chevrolet Onix 2023](https://noticias.autocosmos.com.mx/2022/08/01/chevrolet-onix-2023-a-prueba-conoce-el-consumo-de-combustible-real-de-este-sedan-hecho-en-china)
-[Precio de la gasolina 2023 Ciudades principales](https://www.canalinstitucional.tv/precio-gasolina-2023-colombia)
-[Precio de la gasolina 2023 Colombia](https://es.globalpetrolprices.com/Colombia/gasoline_prices/)
-[especificaciones del Chevrolet Onix 2023](https://www.chevrolet.com.co/carros/onix-turbo-sedan/especificaciones-versiones)
-[Peajes para el recorridos entre ciudades](https://www.peajesencolombia.com/)
+- [ChatGTP](https://chat.openai.com/chat/)
+- [Autos Mas vendidos en Colombia 2022](https://www.motor.com.co/industria/Listado-de-los-carros-mas-vendidos-en-2022-20230113-0009.html)
+- [Chevrolet Onix 2023](https://noticias.autocosmos.com.mx/2022/08/01/chevrolet-onix-2023-a-prueba-conoce-el-consumo-de-combustible-real-de-este-sedan-hecho-en-china)
+- [Precio de la gasolina 2023 Ciudades principales](https://www.canalinstitucional.tv/precio-gasolina-2023-colombia)
+- [Precio de la gasolina 2023 Colombia](https://es.globalpetrolprices.com/Colombia/gasoline_prices/)
+- [especificaciones del Chevrolet Onix 2023](https://www.chevrolet.com.co/carros/onix-turbo-sedan/especificaciones-versiones)
+- [Peajes para el recorridos entre ciudades](https://www.peajesencolombia.com/)
