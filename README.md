@@ -88,27 +88,27 @@ F(x,y,z) = 30 + x^2 - 10\cos(2x\pi)+ y^2 - 10\cos(2y\pi)+ z^2 - 10\cos(2z\pi)
  * Algoritmo evolutivo 3D soluciones<br>
     MPunto óptimo:  [-3406.66311433 -3073.54780406  3351.37851544]<br>
     Valor óptimo:  32283839.601949047<br>
-    ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rastrigin-evolutivo3d.PNG)
+    ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rastrigin-evolutivo3d.png)
 
  * Optimizacon de particulas 2D soluciones<br>
     Punto óptimo:  [-8.15783695e-07  1.63806771e-06]<br>
     Valor óptimo:  6.643681160767301e-10<br>
-    ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rastrigin-particulas2d.PNG)
+    ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rastrigin-particulas2d.png)
 
  * Optimizacon de particulas 3D soluciones<br>
     Punto óptimo:  [-1.77528669e-05  7.12565680e-06  9.94956499e-01]<br>
     Valor óptimo:  0.9949591305999235<br>
-    ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rastrigin-particulas3d.PNG)
+    ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rastrigin-particulas3d.png)
 
  * Evolución diferencial 2D soluciones<br>
     Punto óptimo:  0.0 -0.0<br>
     Valor óptimo:  0.0<br>
-    ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rastrigin-diferencial2d.PNG)
+    ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rastrigin-diferencial2d.png)
 
  * Evolución diferencial 3D soluciones<br>
     Punto óptimo: 0.0 -0.0 0.0<br>
     Valor óptimo: 0.0<br>
-    ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rastrigin-diferencial3d.PNG)
+    ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rastrigin-diferencial3d.png)
 
 4. Represente con un gif animado o un video el proceso de optimización de descenso por gradiente y el proceso usando el método heurístico.
 
