@@ -1,5 +1,10 @@
 # Trabajo1_Grupo9_Optimizacion_Heuristica
 
+* Eider Alejandro Peña Dagua
+* Andres Camilo Garcia Moreno
+* Raul Vladimir Gaitan Vaca
+* Miguel Angel Henao Higuita
+
 ## PUNTO 1:  Optimizacion Nuemerica:
 Considere las siguientes funciones de prueba:
 
