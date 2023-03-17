@@ -121,6 +121,11 @@ El codigo utilizado para generar los resultados se encuentra [Aquí](https://git
     Valor óptimo: -0.030480020313926527<br>
     ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rosenbrock-evolutivo2d.png)
 
+ * Algoritmo evolutivo 3D soluciones<br>
+    Punto óptimo: [-3530.81281284 -3476.06946189    -9.14639197]<br>
+    Valor óptimo: 3.015043065761123e+16<br>
+    ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rosenbrock-evolutivo3d.png)
+
  * Optimizacon de particulas 2D soluciones<br>
     Punto óptimo:  [0.99958204 0.99928491]<br>
     Valor óptimo:  1.6306443737205254e-06<br>
