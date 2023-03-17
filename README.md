@@ -86,6 +86,7 @@ El codigo utilizado para generar los resultados se encuentra [Aquí](https://git
  * Algoritmo evolutivo 2D soluciones<br>
     Punto óptimo: [ 0.05214126 -0.06074095]<br>
     Valor óptimo: 0.7950696846817561<br>
+    ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rastrigin-evolutivo2d.png)
 
  * Algoritmo evolutivo 3D soluciones<br>
     MPunto óptimo:  [-3406.66311433 -3073.54780406  3351.37851544]<br>
