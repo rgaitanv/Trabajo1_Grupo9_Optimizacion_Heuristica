@@ -114,6 +114,12 @@ El codigo utilizado para generar los resultados se encuentra [Aquí](https://git
 
 4. Represente con un gif animado o un video el proceso de optimización de descenso por gradiente y el proceso usando el método heurístico.
 
+    * Rastrigin<br>
+        ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/Rastrin_2D.gif)
+    
+    * Rosenbrock<br>
+        ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rosenbrock-gif.gif)
+
 ## Punto 2
 
 ### Introduccion
