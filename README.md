@@ -93,7 +93,7 @@ F(x,y,z) = 30 + x^2 - 10\cos(2x\pi)+ y^2 - 10\cos(2y\pi)+ z^2 - 10\cos(2z\pi)
  * Optimizacon de particulas 2D soluciones<br>
     Punto óptimo:  [-8.15783695e-07  1.63806771e-06]<br>
     Valor óptimo:  6.643681160767301e-10<br>
-    ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rastrigin-particulas2d.png)
+    ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rastring-particulas2d.png)
 
  * Optimizacon de particulas 3D soluciones<br>
     Punto óptimo:  [-1.77528669e-05  7.12565680e-06  9.94956499e-01]<br>
