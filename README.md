@@ -81,6 +81,8 @@ F(x,y,z) = 30 + x^2 - 10\cos(2x\pi)+ y^2 - 10\cos(2y\pi)+ z^2 - 10\cos(2z\pi)
 3. Optimice las funciones en dos y tres dimensiones usando: algoritmos evolutivos, optimización de partículas y evolución diferencial
 
 # Rastrigin
+El codigo utilizado para generar los resultados se encuentra [Aquí](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/tree/main/Optimizacion_Numerica/Funcion_Rastring)
+
  * Algoritmo evolutivo 2D soluciones<br>
     Punto óptimo: [ 0.05214126 -0.06074095]<br>
     Valor óptimo: 0.7950696846817561<br>
