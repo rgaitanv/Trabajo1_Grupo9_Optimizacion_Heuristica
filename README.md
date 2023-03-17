@@ -125,6 +125,11 @@ El codigo utilizado para generar los resultados se encuentra [Aquí](https://git
     Valor óptimo:  1.6306443737205254e-06<br>
     ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rosenbrock-particulas2d.png)
 
+ * Optimizacon de particulas 3D soluciones<br>
+    Punto óptimo:  [0.94512375 0.89318974 0.79748427]<br>
+    Valor óptimo:  0.014429531431456701<br>
+    ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rosenbrock-particulas3d.png)
+
  * Evolución diferencial 2D soluciones<br>
     Punto óptimo:  1.0 1.0<br>
     Valor óptimo:  0.0<br>
