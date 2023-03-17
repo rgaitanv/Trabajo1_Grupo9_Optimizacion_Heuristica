@@ -80,34 +80,34 @@ F(x,y,z) = 30 + x^2 - 10\cos(2x\pi)+ y^2 - 10\cos(2y\pi)+ z^2 - 10\cos(2z\pi)
 ```
 3. Optimice las funciones en dos y tres dimensiones usando: algoritmos evolutivos, optimización de partículas y evolución diferencial
 
-#Rastrigin
- * Algoritmo evolutivo 2D soluciones
-    La mejor solución encontrada es: [ 0.05214126 -0.06074095]
-    La aptitud de la mejor solución encontrada es: 0.7950696846817561
+# Rastrigin
+ * Algoritmo evolutivo 2D soluciones.
+    La mejor solución encontrada es: [ 0.05214126 -0.06074095].
+    La aptitud de la mejor solución encontrada es: 0.7950696846817561.
 
- * Algoritmo evolutivo 2D soluciones
-    Mejor solución encontrada:  [-3406.66311433 -3073.54780406  3351.37851544]
-    Fitness de la mejor solución:  32283839.601949047
+ * Algoritmo evolutivo 2D soluciones.
+    Mejor solución encontrada:  [-3406.66311433 -3073.54780406  3351.37851544].
+    Fitness de la mejor solución:  32283839.601949047.
     ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rastrigin-evolutivo3d.PNG)
 
- * Optimizacon de particulas 2D soluciones
-    Punto óptimo:  [-8.15783695e-07  1.63806771e-06]
+ * Optimizacon de particulas 2D soluciones.
+    Punto óptimo:  [-8.15783695e-07  1.63806771e-06].
     Valor óptimo:  6.643681160767301e-10
     ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rastrigin-particulas2d.PNG)
 
- * Optimizacon de particulas 3D soluciones
-    Punto óptimo:  [-1.77528669e-05  7.12565680e-06  9.94956499e-01]
-    Valor óptimo:  0.9949591305999235
+ * Optimizacon de particulas 3D soluciones.
+    Punto óptimo:  [-1.77528669e-05  7.12565680e-06  9.94956499e-01].
+    Valor óptimo:  0.9949591305999235.
     ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rastrigin-particulas3d.PNG)
 
- * Evolución diferencial 2D soluciones
-    Punto óptimo:  0.0 -0.0
-    Valor óptimo:  0.0
+ * Evolución diferencial 2D soluciones.
+    Punto óptimo:  0.0 -0.0.
+    Valor óptimo:  0.0.
     ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rastrigin-diferencial2d.PNG)
 
- * Evolución diferencial 3D soluciones
-    Best solution: 0.0 -0.0 0.0
-    Best fitness: 0.0
+ * Evolución diferencial 3D soluciones.
+    Best solution: 0.0 -0.0 0.0.
+    Best fitness: 0.0.
     ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rastrigin-diferencial3d.PNG)
 
 4. Represente con un gif animado o un video el proceso de optimización de descenso por gradiente y el proceso usando el método heurístico.
