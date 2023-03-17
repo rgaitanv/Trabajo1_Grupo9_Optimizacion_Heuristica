@@ -130,6 +130,11 @@ El codigo utilizado para generar los resultados se encuentra [Aquí](https://git
     Valor óptimo:  0.0<br>
     ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rosenbrock-diferencial2d.png)
 
+ * Evolución diferencial 3D soluciones<br>
+    Punto óptimo:  1.0 1.0 1.0<br>
+    Valor óptimo:  0.0<br>
+    ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rosenbrock-diferencial3d.png)
+
 
 4. Represente con un gif animado o un video el proceso de optimización de descenso por gradiente y el proceso usando el método heurístico.
 
