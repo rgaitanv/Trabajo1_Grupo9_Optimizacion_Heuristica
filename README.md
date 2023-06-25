@@ -192,7 +192,7 @@ El algoritmo genético aplicado al problema del vendedor viajero es un método d
 Usando un algoritmo propuesto obtenemos un orden para el recorrido de las ciudades. Dado que este algoritmo busca soluciones pseudo optimas en diferentes corridas es posible que arroje diferentes soluciones por lo que la imagen a continuacion es un ejemplo , mas no es el caso escogido para el analisis entre ambos recorridos, pero sirve para ilustrar un posible recorrido.
 
 <p align="center">
-  <img src="https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/10001-1.PNG">
+  <img src="https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/10001-1.PNG">.<br>
   Imagen 1. Resultado Algoritmo genetico
 </p>
 
