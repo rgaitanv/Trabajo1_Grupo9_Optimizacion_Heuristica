@@ -227,8 +227,10 @@ Con esto tendremos dos recorridos , los cuales nos indicaran dos posibles orden 
 
 Usando informacion del recorrido sabiendo los orden , se pudo extraer la cantidad total de horas de viaje , los km totales recorridos, el numero de pasajes y el total de dinero que se debe gastar en todo el recorrido con los pasajes.
 
-![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/info_del_recorrido.PNG)
-
+<p align="center">
+  <img src="https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/info_del_recorrido.PNG">.<br>
+  Imagen 4. Resultados de los algoritmos
+</p>
 
 ### Recorrido Algoritmo de las colonias de hormigas
 
@@ -273,7 +275,10 @@ Finalmente tenemos la siguiente Matriz de costos:
 ## Solucion Ganadora
 Dado que el algoritmo de las hormigas nos deja ahorrar 400000 pesos, esta es la solucion ganadora.
 
-![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/Recorridos.gif)
+<p align="center">
+  <img src="https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/Recorridos.gif">.<br>
+  Imagen 5. Mejor recorrido
+</p>
 
 ## Referencias
 - [ChatGTP](https://chat.openai.com/chat/)
