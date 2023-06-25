@@ -255,8 +255,10 @@ Por ende el costo por desplazamiento para el algoritmo genetico es de 2555100 pe
 
 Finalmente tenemos la siguiente Matriz de costos:
 
-**Tabla 1** Matriz de costos
-![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/Matriz_Costos.PNG)
+<p align="center">
+  **Tabla 1** Matriz de costos
+  ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/Matriz_Costos.PNG)
+</p>
 
 ## Solucion Ganadora
 Dado que el algoritmo de las hormigas nos deja ahorrar 400000 pesos, esta es la solucion ganadora.
