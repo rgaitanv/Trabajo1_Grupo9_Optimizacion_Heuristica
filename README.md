@@ -193,7 +193,7 @@ Usando un algoritmo propuesto obtenemos un orden para el recorrido de las ciudad
 
 <p align="center">
   <img src="https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/10001-1.PNG">.<br>
-  Imagen 1. Resultado Algoritmo genetico
+  Imagen 1. Mapa resultado Algoritmo genetico
 </p>
 
 ### Algoritmo de colonias de hormigas
@@ -203,12 +203,18 @@ Esto aplicado a nuestro problema busca la solución optima, esto aplicado nos da
 
 Usando el codigo propuesto para el algoritmo de las colonias obtenemos un arreglo con numeros , los cuales son asociados a una ciudad , con esto de forma preliminar obtenemos un mapa preliminar de como seria el recorrido.
 
-
-![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/ciudades.png)
+<p align="center">
+  <img src="https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/ciudades.png">.<br>
+  Imagen 2. Resultado Algoritmo colonia de hormigas
+</p>
 
 Reusando el codigo para generar el mapa en el algoritmo genetico, obtenemos una mejor visualizacion del recorrido.
 
-![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/hormigas.PNG)
+<p align="center">
+  <img src="https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/hormigas.PNG">.<br>
+  Imagen 3. Mapa resultado Algoritmo de colonia de hormigas
+</p>
+
 
 ## Elección del recorrido 
 Antes de escoger el recorrido definiremos 2 aspectos importantes para el recorrido del vendedor, estos seran el tipo de vehiculo que usara y el tiempo del recorrido. Usando como base los autos mas vendidos en 2022 en colombia , seleccionamos uno de estos , siendo el modelo Chevrolet Onix 2023. El costo del auto no sera considerado , partiendo del supuesto que el vendedor ya lo posee ( pero en caso de no hacerlo , el precio puede ser aproximadamente de 76 Millones de pesos).Este auto consume aproximadamente un rendimiento real de 17 km/l,siendo esto aproximadamente 64.352 km por galon, asi con el kilometraje de los recorridos obtendremos el costo por gasolina. Otra consideracion es que el maximo de litros que soporta este modelo es de 44 , entonces puede almacenar 11.6 galones.
