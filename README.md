@@ -160,6 +160,14 @@ El codigo utilizado para generar los resultados se encuentra [Aquí](https://git
     * Rosenbrock<br>
         ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rosenbrock-gif.gif)
 
+5. ¿Qué aportan los métodos por descenso de gradiente y que aportan los métodos heurísticos?
+
+Los metodos por descenso de gradiente se basan en la idea de seguir la dirección opuesta al gradiente de la función objetivo con el objetivo de encontrar un mínimo local o global. En cada iteración, se calcula el gradiente de la función objetivo en el punto actual y se actualiza el punto en la dirección opuesta al gradiente, con la esperanza de acercarse al mínimo deseado. Los métodos por descenso de gradiente pueden ser rápidos y eficientes en problemas de optimización convexos, donde la función objetivo es suave y diferenciable.
+
+Por otro lado, los métodos heurísticos son técnicas utilizadas para buscar soluciones aproximadas en problemas complejos donde las soluciones exactas no son fácilmente obtenibles. Estos métodos no garantizan encontrar la mejor solución, pero pueden encontrar soluciones aceptables en un tiempo razonable. 
+
+En resumen, los métodos por descenso de gradiente son efectivos para la optimización de funciones suaves y diferenciables, mientras que los métodos heurísticos son útiles para problemas complejos donde no se puede obtener una solución óptima y se busca una solución aproximada aceptable.
+
 ## Punto 2
 
 ### Introduccion
