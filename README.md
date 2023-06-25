@@ -155,11 +155,17 @@ El codigo utilizado para generar los resultados se encuentra [Aquí](https://git
 4. Represente con un gif animado o un video el proceso de optimización de descenso por gradiente y el proceso usando el método heurístico.
 
     * Rastrigin<br>
-        ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/Rastrin_2D.gif)
-    
-    * Rosenbrock<br>
-        ![](https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rosenbrock-gif.gif)
+    <p align="center">
+      <img src="https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/Rastrin_2D.gif">.<br>
+      Imagen 1. Descenso por gradiente
+    </p>
 
+    * Rosenbrock<br>
+    <p align="center">
+      <img src="https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rosenbrock-gif.giff">.<br>
+      Imagen 2. Método Heurístico
+    </p>
+    
 5. ¿Qué aportan los métodos por descenso de gradiente y que aportan los métodos heurísticos?
 
 Los metodos por descenso de gradiente se basan en la idea de seguir la dirección opuesta al gradiente de la función objetivo con el objetivo de encontrar un mínimo local o global. En cada iteración, se calcula el gradiente de la función objetivo en el punto actual y se actualiza el punto en la dirección opuesta al gradiente, con la esperanza de acercarse al mínimo deseado. Los métodos por descenso de gradiente pueden ser rápidos y eficientes en problemas de optimización convexos, donde la función objetivo es suave y diferenciable.
@@ -201,7 +207,7 @@ Usando un algoritmo propuesto obtenemos un orden para el recorrido de las ciudad
 
 <p align="center">
   <img src="https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/10001-1.PNG">.<br>
-  Imagen 1. Mapa resultado Algoritmo genetico
+  Imagen 3. Mapa resultado Algoritmo genetico
 </p>
 
 ### Algoritmo de colonias de hormigas
@@ -213,19 +219,19 @@ Usando el codigo propuesto para el algoritmo de las colonias obtenemos un arregl
 
 <p align="center">
   <img src="https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/ciudades.png">.<br>
-  Imagen 2. Resultado Algoritmo colonia de hormigas
+  Imagen 4. Resultado Algoritmo colonia de hormigas
 </p>
 
 Reusando el codigo para generar el mapa en el algoritmo genetico, obtenemos una mejor visualizacion del recorrido.
 
 <p align="center">
   <img src="https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/hormigas.PNG">.<br>
-  Imagen 3. Mapa resultado Algoritmo de colonia de hormigas
+  Imagen 5. Mapa resultado Algoritmo de colonia de hormigas
 </p>
 
 
 ## Elección del recorrido 
-Antes de escoger el recorrido definiremos 2 aspectos importantes para el recorrido del vendedor, estos seran el tipo de vehiculo que usara y el tiempo del recorrido. Usando como base los autos mas vendidos en 2022 en colombia , seleccionamos uno de estos , siendo el modelo Chevrolet Onix 2023. El costo del auto no sera considerado , partiendo del supuesto que el vendedor ya lo posee ( pero en caso de no hacerlo , el precio puede ser aproximadamente de 76 Millones de pesos).Este auto consume aproximadamente un rendimiento real de 17 km/l,siendo esto aproximadamente 64.352 km por galon, asi con el kilometraje de los recorridos obtendremos el costo por gasolina. Otra consideracion es que el maximo de litros que soporta este modelo es de 44 , entonces puede almacenar 11.6 galones.
+Antes de escoger el recorrido definiremos 2 aspectos importantes para el recorrido del vendedor, estos seran el tipo de vehiculo que usara y el tiempo del recorrido. Usando como base los autos mas vendidos en 2022 en colombia (*Autos Mas vendidos en Colombia 2022*, 2022), seleccionamos uno de estos , siendo el modelo Chevrolet Onix 2023. El costo del auto no sera considerado , partiendo del supuesto que el vendedor ya lo posee ( pero en caso de no hacerlo , el precio puede ser aproximadamente de 76 Millones de pesos).Este auto consume aproximadamente un rendimiento real de 17 km/l,siendo esto aproximadamente 64.352 km por galon (*especificaciones del Chevrolet Onix*, 2023), asi con el kilometraje de los recorridos obtendremos el costo por gasolina. Otra consideracion es que el maximo de litros que soporta este modelo es de 44 , entonces puede almacenar 11.6 galones.
 
 Retomando el segundo aspecto , el cual es el tiempo del viajero para el cual tomaremos los tiempos aproximados entre las distancias entre las ciudades, el costo del tiempo lo asumiremos como la hora del vendedor vale esta  una funcion de 10000 pesos + 10000 pesos adicionales por cada hora recorrida.
 
@@ -233,11 +239,11 @@ Al ser algo volatil el algoritmo genetico, al escoger un pseudo optimo diferente
 
 Con esto tendremos dos recorridos , los cuales nos indicaran dos posibles orden para el viaje del vendedor.
 
-Usando informacion del recorrido sabiendo los orden , se pudo extraer la cantidad total de horas de viaje , los km totales recorridos, el numero de pasajes y el total de dinero que se debe gastar en todo el recorrido con los pasajes.
+Usando informacion del recorrido sabiendo los orden , se pudo extraer la cantidad total de horas de viaje , los km totales recorridos, el numero de pasajes y el total de dinero que se debe gastar en todo el recorrido con los pasajes (*Peajes Colombia*, 2023).
 
 <p align="center">
   <img src="https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/info_del_recorrido.PNG">.<br>
-  Imagen 4. Resultados de los algoritmos
+  Imagen 6. Resultados de los algoritmos
 </p>
 
 ### Recorrido Algoritmo de las colonias de hormigas
@@ -248,7 +254,7 @@ Para el algoritmo de las colonias el recorrido sera asi partiendo y regresando a
 
 El recorrido en total cuenta con 3969.7 km asi que en total el vendedor debera tener aproximadamente 62 galones para todo el recorrido, por lo cual el conductor debera reponer gasolina al menos 6 veces reponiendo 11 galones para un recorrido aproximadamente cada 662 kilometros. para el costo de la gasolina usaremos el precio de venta de la ciudad de partida para el primer llenado del tanque y en las siguientes se usara un promedio del precio de la gasolina redondeado al valor de 1000 pesos mas alto , esto se debe a que hay recorridos entre ciudades que superan los 662 kilometros y es mas complicado determinar exactamente el precio de la  gasolina en el puesto mas cercano cuando esta se esta acabando entre recorridos.
 
-Por ende en pasto iniciamos con un precio por galon de $9.316 y para las siguientes reposiciones se usara un precio de 11000 pesos, por consiguiente el precio de la gasolina en el recorrido es de 707476 pesos.
+Por ende en pasto iniciamos con un precio por galon de $9.316 (*Precio de la gasolina 2023 Ciudades principales*, 2023) y para las siguientes reposiciones se usara un precio de 11000 pesos, por consiguiente el precio de la gasolina en el recorrido es de 707476 pesos.
 
 El recorrido aproximadamente cuenta con 78 horas de viaje, por lo cual el costo por horas es de de 790000 pesos.
 
@@ -285,7 +291,7 @@ Dado que el algoritmo de las hormigas nos deja ahorrar 400000 pesos, esta es la 
 
 <p align="center">
   <img src="https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/Recorridos.gif">.<br>
-  Imagen 5. Mejor recorrido
+  Imagen 7. Mejor recorrido
 </p>
 
 ## Referencias
@@ -295,4 +301,4 @@ Dado que el algoritmo de las hormigas nos deja ahorrar 400000 pesos, esta es la 
 - [Precio de la gasolina 2023 Ciudades principales](https://www.canalinstitucional.tv/precio-gasolina-2023-colombia)
 - [Precio de la gasolina 2023 Colombia](https://es.globalpetrolprices.com/Colombia/gasoline_prices/)
 - [especificaciones del Chevrolet Onix 2023](https://www.chevrolet.com.co/carros/onix-turbo-sedan/especificaciones-versiones)
-- [Peajes para el recorridos entre ciudades](https://www.peajesencolombia.com/)
+- [Peajes Colombia](https://www.peajesencolombia.com/)
