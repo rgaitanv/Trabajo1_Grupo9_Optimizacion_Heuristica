@@ -256,8 +256,8 @@ Por ende el costo por desplazamiento para el algoritmo genetico es de 2555100 pe
 Finalmente tenemos la siguiente Matriz de costos:
 
 <p align="center">
-  Tabla 1. Matriz de costos
-  <img width="33%" src="https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/Matriz_Costos.PNG">
+  Tabla 1. Matriz de costos.<br>
+  <img src="https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/Matriz_Costos.PNG">
 </p>
 
 
