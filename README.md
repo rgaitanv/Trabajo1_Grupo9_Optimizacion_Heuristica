@@ -162,7 +162,7 @@ El codigo utilizado para generar los resultados se encuentra [Aquí](https://git
 
     * Rosenbrock<br>
     <p align="center">
-      <img src="https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rosenbrock-gif.giff">.<br>
+      <img src="https://github.com/rgaitanv/Trabajo1_Grupo9_Optimizacion_Heuristica/blob/main/Imagenes/rosenbrock-gif.gif">.<br>
       Imagen 2. Método Heurístico
     </p>
     
